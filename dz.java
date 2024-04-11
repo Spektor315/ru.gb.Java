@@ -8,7 +8,7 @@ class PhoneRow {
     private ArrayList<Integer> _phone_number = new ArrayList<>();
 
     PhoneRow(String name, int num) {
-        // System.out.println("Constuct: "+name);
+
         _unit_name = name;
         _phone_number.add(num);
     }
@@ -29,8 +29,6 @@ class PhoneRow {
         return this._phone_number;
     }
 }
-
-// pro (KGB1st) Alex Deroza Copyright (c) 2024
 class PhoneBook {
     private int _ai = 0;
     private static HashMap<Integer, PhoneRow> phoneBook = new HashMap<>();
@@ -68,7 +66,6 @@ class PhoneBook {
     }
 }
 
-// pro (KGB1st) Alex Deroza Copyright (c) 2024
 class Printer {
     public static void main(String[] args) {
         String name1;
